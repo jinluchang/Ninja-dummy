@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ninja"
+version = "1.0"
+authors = [ { name = 'Luchang Jin', email = 'ljin.luchang@gmail.com' }, ]
+description = "Dummy Ninja package which can be used to fill the dependency for meson-python."
+license = { text = 'GPL-3.0-or-later' }
